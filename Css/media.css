@@ -1,0 +1,185 @@
+/* ========== Tablets ========== */
+@media screen and (max-width: 992px) {
+  .header {
+    padding: 20px 3%;
+  }
+
+  .social-media {
+    margin-left: 20px;
+  }
+
+  .social-media a {
+    width: 32px;
+    height: 32px;
+    margin-right: 5px;
+  }
+
+  .navbar a {
+    font-size: 14px;
+    margin-left: 12px;
+  }
+
+  .penetrte-blur h1,
+  .right-info h1 {
+    font-size: 170px;
+  }
+
+  .right-info h3 {
+    font-size: 55px;
+  }
+
+  .left-info .content {
+    left: 5%;
+    bottom: 10%;
+    width: 85%;
+  }
+
+  .content p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+}
+
+/* ========== Mobile Phones ========== */
+@media screen and (max-width: 768px) {
+  .header {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 15px 4%;
+  }
+
+  .logo {
+    font-size: 24px;
+  }
+
+  .social-media {
+    margin: 0;
+  }
+
+  .social-media a {
+    width: 30px;
+    height: 30px;
+    margin-right: 3px;
+    border-width: 1px;
+  }
+
+  .social-media a i {
+    font-size: 16px;
+  }
+
+  .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+  }
+
+  .navbar a {
+    margin: 0;
+    font-size: 12px;
+  }
+
+  .penetrte-blur h1,
+  .right-info h1 {
+    font-size: clamp(65px, 16vw, 120px);
+  }
+
+  .slide .left-info {
+    width: 60%;
+  }
+
+  .slide .right-info {
+    width: 40%;
+  }
+
+  .left-info .content {
+    left: 6%;
+    bottom: 15%;
+    width: 90%;
+  }
+
+  .content h3 {
+    font-size: 15px;
+  }
+
+  .content p {
+    font-size: 12px;
+    line-height: 1.5;
+    margin: 8px 0 12px;
+  }
+
+  .content .btn {
+    padding: 9px 14px;
+    font-size: 12px;
+  }
+
+  .right-info h3 {
+    font-size: clamp(25px, 7vw, 45px);
+    margin-left: 5px;
+  }
+
+  .navigation {
+    bottom: 4%;
+    right: 4%;
+  }
+
+  .navigation span {
+    width: 38px;
+    height: 38px;
+    margin-left: 8px;
+  }
+
+  .navigation span i {
+    font-size: 30px;
+  }
+}
+
+/* ========== Small Mobile Phones ========== */
+@media screen and (max-width: 480px) {
+  .header {
+    padding: 12px 3%;
+  }
+
+  .social-media a {
+    width: 25px;
+    height: 25px;
+  }
+
+  .social-media a i {
+    font-size: 14px;
+  }
+
+  .navbar a {
+    font-size: 10px;
+  }
+
+  .penetrte-blur h1,
+  .right-info h1 {
+    font-size: 16vw;
+  }
+
+  .slide .left-info {
+    width: 65%;
+  }
+
+  .slide .right-info {
+    width: 35%;
+  }
+
+  .left-info .content {
+    bottom: 17%;
+  }
+
+  .content h3 {
+    font-size: 12px;
+  }
+
+  .content p {
+    font-size: 11px;
+  }
+
+  .right-info h3 {
+    font-size: 7vw;
+  }
+}
